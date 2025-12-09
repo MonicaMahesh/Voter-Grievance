@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "complaints")
+@Document(collection = "complaint")
 public class Complaint {
 
     @Id
